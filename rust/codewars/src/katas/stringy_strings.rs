@@ -1,7 +1,7 @@
 // https://www.codewars.com/kata/563b74ddd19a3ad462000054
 pub fn stringy(size: usize) -> String {
     // Clever solution with cycle, take and collect
-    // "10".chars().cycle().take(size).collect()
+    // "10".chars().cycle().take(size).collect();
 
     let array = vec![0; size];
 
