@@ -6,4 +6,7 @@ fn main() {
 
     let str = katas::stringy_strings::stringy(5);
     println!("{}", str);
+
+    let valid = katas::pin::validate_pin("12345");
+    println!("{}", valid);
 }
