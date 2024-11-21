@@ -9,4 +9,6 @@ fn main() {
 
     let valid = katas::pin::validate_pin("12345");
     println!("{}", valid);
+
+    katas::bus::number(&[(10, 0), (3, 5), (5, 8)]);
 }
