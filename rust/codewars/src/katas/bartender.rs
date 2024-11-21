@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/568dc014440f03b13900001d
 pub fn get_drink_by_profession(param: &str) -> &'static str {
     match param.to_lowercase().as_str() {
         "jabroni" => "Patron Tequila",
