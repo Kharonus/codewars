@@ -1,14 +1,15 @@
 mod katas;
 
 fn main() {
-    let drink = katas::bartender::get_drink_by_profession("Jabroni");
-    println!("{}", drink);
+    katas::bartender::get_drink_by_profession("Jabroni");
 
-    let str = katas::stringy_strings::stringy(5);
-    println!("{}", str);
+    katas::strings::stringy(5);
+    katas::strings::ends_with("abc", "bc");
+    katas::strings::break_camel_case("camelCase");
 
-    let valid = katas::pin::validate_pin("12345");
-    println!("{}", valid);
+    katas::pin::validate_pin("12345");
 
     katas::bus::number(&[(10, 0), (3, 5), (5, 8)]);
+
+    katas::number::narcissistic(153);
 }
