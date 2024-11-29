@@ -1,6 +1,8 @@
 mod katas;
 
 fn main() {
+    katas::geometry::find_nb(4183059834009);
+
     katas::bartender::get_drink_by_profession("Jabroni");
 
     katas::strings::stringy(5);
@@ -11,5 +13,6 @@ fn main() {
 
     katas::bus::number(&[(10, 0), (3, 5), (5, 8)]);
 
-    katas::number::narcissistic(153);
+    katas::numbers::narcissistic(153);
+    katas::numbers::high_and_low("1 2 3 4 5");
 }
